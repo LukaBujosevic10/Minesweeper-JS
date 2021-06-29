@@ -1,0 +1,29 @@
+#main{
+    margin: 0 auto;
+    width: 720px;
+    height: 560px;
+}
+.polje{
+    width: 40px;
+    height: 40px;
+    border: solid black 1px;
+    float:left;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: red;
+    background-color: silver;
+    user-select: none;
+}
+.mina{
+    margin: 0;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: black;
+}
